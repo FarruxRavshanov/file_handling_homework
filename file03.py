@@ -13,7 +13,7 @@ def main(data:str):
     s = []
     while i < len(data):
         if data[i].isdigit:
-            s.append(i)
+            s.append(data[i])
         i += 1
     return s
     
