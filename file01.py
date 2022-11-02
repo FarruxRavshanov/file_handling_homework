@@ -6,8 +6,11 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    a = list(data)
-    return a
+    s = []
+    i = 0
+    while i < len(data):
+        data[i].appen(s)
+    return s
 
 # Read data from file
 f = open('txt_file/data01.txt')
