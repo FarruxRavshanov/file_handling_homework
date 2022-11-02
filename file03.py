@@ -14,6 +14,7 @@ def main(data:str):
     while i < len(data):
         if data[i].isdigit:
             s.append(i)
+        i += 1
     return s
     
 # Read data from file
