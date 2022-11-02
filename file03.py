@@ -1,3 +1,6 @@
+from this import d
+
+
 def main(data:str):
     """
     The data is from the file. Return the numbers as a list type.
@@ -6,10 +9,12 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    a = []
-    if data.isdigit():
-        a.append()
-    return a
+    i = 0
+    s = []
+    while i < len(data):
+        if data[i].isdigit:
+            s.append(i)
+    return s
     
 # Read data from file
 a = open('txt_file/data03.txt')
