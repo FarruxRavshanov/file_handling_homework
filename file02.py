@@ -15,3 +15,4 @@ def main(data:str):
 # Read data from file
 a = open('txt_file/data02.txt')
 data = a.read()
+print(main(data))
