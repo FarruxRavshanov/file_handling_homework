@@ -6,5 +6,12 @@ def main(data:str):
     Returns:
         int: return answer
     """
+    count = 0
+    for i in data:
+        if data[i].isalpha():
+            count += 1
+    return count
 
 # Read data from file
+a = open('txt_file/data02.txt')
+data = a.read()
