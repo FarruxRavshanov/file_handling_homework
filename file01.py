@@ -9,7 +9,8 @@ def main(data:str):
     s = []
     i = 0
     while i < len(data):
-        data[i].appen(s)
+        data[i].append(s)
+        i += 1
     return s
 
 # Read data from file
