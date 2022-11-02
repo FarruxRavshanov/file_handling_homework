@@ -8,7 +8,7 @@ def main(data:str):
     """
     count = 0
     for i in data:
-        if data[i].isalpha():
+        if i.isalpha():
             count += 1
     return count
 
